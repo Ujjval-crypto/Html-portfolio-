@@ -1,0 +1,47 @@
+/* style.css */
+
+body {
+  background: linear-gradient(to bottom right, #7fc6f0, #53e7e0);
+  font-family: "Poppins", sans-serif;
+  color: #669afa;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 3em;
+  color: #2e89d4;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+hr {
+  width: 60%;
+  border: none;
+  height: 2px;
+  background: #094f61;
+  margin: 20px auto;
+  border-radius: 2px;
+}
+
+video {
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(30, 202, 214, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+video:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 25px rgba(14, 163, 143, 0.2);
+}
+
+body::after {
+  content: "🎉";
+  font-size: 5rem;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.6;
+}
